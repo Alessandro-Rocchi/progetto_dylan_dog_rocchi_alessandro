@@ -14,25 +14,21 @@ body {
     background-color: #F1F1F1;
 }
 
-.bg-pink {
-    background-color: #BF8C6F;
-}
-
 /* color */
-.txt-light {
-    color: #DDD;
+.txt-dark {
+    color: #000000 !important;
 }
 
 /* a */
-a:hover {
-    text-decoration: none;
+a {
+    text-decoration: none !important;
 }
 
-nav a, .link-decoration-none {
-    text-decoration: none;
+a:hover{
+    text-decoration: underline !important;
 }
 
-nav a:hover, .link-decoration-none:hover {
+nav a:hover{
     text-decoration: underline;
 }
 
@@ -50,30 +46,7 @@ nav a:hover, .link-decoration-none:hover {
     padding: 3%;
 }
 
-.padding-right-left {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
 /* font-size */
 .font-size-l {
     font-size: 30px;
-}
-
-/* img */
-.img-center {
-    display: block;
-    margin: 0 auto;
-}
-
-.img-s {
-    width: 10%;
-}
-
- nav li {
-	display: inline !important;
-}
-
-.border-r-zero{
-	border-radius: 0 !important;
 }
