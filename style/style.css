@@ -6,8 +6,8 @@ body {
 }
 
 /* background */
-.bg-gray-dark {
-    background-color: #333;
+.bg-dark-red {
+    background-color: #e80000;
 }
 
 .bg-gray-light {
@@ -17,6 +17,10 @@ body {
 /* color */
 .txt-dark {
     color: #000000 !important;
+}
+
+.txt-light {
+    color: #ffffff;
 }
 
 /* a */

@@ -27,7 +27,7 @@
     </head>
     <body>
         <!-- Testata del sito-->
-        <header>
+        <header>s
             <!-- Navigazione Principale -->
             <nav class="navbar bg-dark fixed-top navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
                 <div class="container-fluid">
@@ -47,8 +47,7 @@
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Autori
                         </a>
-                     
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu ">
                           <li><a class="dropdown-item" href="#">Soggettista</a></li>
                           <li><a class="dropdown-item" href="#">Sceneggiatore</a></li>
                           <li><a class="dropdown-item" href="#">Disegnatore</a></li>
@@ -59,7 +58,6 @@
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Personaggi
                         </a>
-                       
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Comprimari</a></li>
                             <li><a class="dropdown-item" href="#">Antagonisti</a></li>
@@ -74,6 +72,7 @@
               </nav>
         </header>
         <main>
+            <!-- Sezione Immagine in Alto-->
             <section class="container-fluid">
               <div class="row">
                   <div class="col-12 px-0">
@@ -81,7 +80,7 @@
                   </div>
               </div>  
             </section>
-
+            <!-- Sezione Descrizione Progetto-->
             <section class="container-fluid">
               <div class="row">
                 <div class="col-md-12 txt-center">
@@ -92,8 +91,8 @@
                       <a class="btn btn-dark" href="#" role="button">Vai al catalogo</a>
                 </div>
               </div>
-
             </section>
+            <!-- Sezione Descrizione Dylan Dog-->
             <section class="container-fluid">
               <div class="row">
                 <div class="col-md-6">
@@ -107,7 +106,7 @@
                 </div>
               </div>
             </section>
-
+            <!-- Sezione Carosello Personaggi-->
             <section class="container-fluid">
               <div class="row">
                 <div class="col-md-12">
@@ -148,7 +147,7 @@
                 </div>
               </div>
             </section>
-
+            <!-- Sezione Card Numeri in evidenza-->
             <section class="container-fluid">
               <div class="row">
                 <div class="col-md-12">
@@ -157,39 +156,74 @@
               </div>
               <div class="row">
                 <div class="col-md-4">
-                  <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                  <div class="card mx-auto d-block" style="width: 18rem;">
+                    <a href="#"><img src="images/DYD1.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-dark">Go somewhere</a>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
-                  <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="col-md-4 ">
+                  <div class="card mx-auto d-block" style="width: 18rem;">
+                    <img src="images/DYD8.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-dark">Go somewhere</a>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
-                  <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="col-md-4 ">
+                  <div class="card mx-auto d-blocks" style="width: 18rem;">
+                    <img src="images/DYD12.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-dark">Go somewhere</a>
                     </div>
                   </div>
                 </div>
               </div>
             </section>
         </main>
+
+        <!-- Footer -->
+
         <footer>
+          <section class="container-fluid bg-dark-red txt-light">
+            <div class="row">
+              <div class="col-md-4">Copyright</div>
+              <div class="col-md-5">
+                <ul class="nav flex-column float-end ">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contatti</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Web Project Plan</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Informazioni</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Domande Frequenti</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <nav class="navbar">
+                  <div class="container-fluid ">
+                    <h3 class="txt-light txt-center">Cerca nel sito</h3>
+                    <form class="d-flex rounded flex-column" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-dark" type="submit">Search</button>
+                    </form>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </section>
         </footer>
     </body>
 </html>
