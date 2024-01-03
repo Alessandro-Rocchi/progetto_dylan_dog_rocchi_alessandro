@@ -27,9 +27,19 @@
     </head>
     <body>
         <!-- Testata del sito-->
-        <header>s
-            <!-- Navigazione Principale -->
-            <nav class="navbar bg-dark fixed-top navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
+        <header>
+           <!-- Sezione Immagine in Alto-->
+          <section class="container-fluid">
+            <div class="row">
+                <div class="col-12 px-0">
+                    <img src="images/homepage.jpg" class="img-fluid mx-auto d-block" alt="Immagine copertina">
+                </div>
+            </div>  
+          </section>
+        </header>
+        <main>
+               <!-- Navigazione Principale -->
+               <nav class="navbar bg-dark sticky-top navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">Logo</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +51,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Catalogo</a>
+                        <a class="nav-link" href="catologo.html">Catalogo</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -70,16 +80,6 @@
                   </div>
                 </div>
               </nav>
-        </header>
-        <main>
-            <!-- Sezione Immagine in Alto-->
-            <section class="container-fluid">
-              <div class="row">
-                  <div class="col-12 px-0">
-                      <img src="images/homepage.jpg" class="img-fluid mx-auto d-block" alt="Immagine copertina">
-                  </div>
-              </div>  
-            </section>
             <!-- Sezione Descrizione Progetto-->
             <section class="container-fluid">
               <div class="row">
@@ -88,7 +88,7 @@
                       <p>
                           Lorem Ipsum sostant
                       </p>
-                      <a class="btn btn-dark" href="#" role="button">Vai al catalogo</a>
+                      <a class="btn btn-dark" href="catologo.html" role="button">Vai al catalogo</a>
                 </div>
               </div>
             </section>

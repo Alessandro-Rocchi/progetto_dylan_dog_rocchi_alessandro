@@ -54,3 +54,8 @@ nav a:hover{
 .font-size-l {
     font-size: 30px;
 }
+
+.t1 {
+        max-height: 390px;
+        overflow-y: scroll;
+    }
