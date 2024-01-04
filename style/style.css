@@ -2,16 +2,11 @@
 
 body {
     font-family: 'Roboto', sans-serif !important;
-    margin: 0;
 }
 
 /* background */
 .bg-dark-red {
     background-color: #e80000;
-}
-
-.bg-gray-light {
-    background-color: #F1F1F1;
 }
 
 /* color */
@@ -41,21 +36,15 @@ a:hover{
     text-align: center;
 }
 
-/* padding */
-.padding-s {
-    padding: 1% 2%;
-}
-
-.padding-md {
-    padding: 3%;
-}
-
-/* font-size */
-.font-size-l {
-    font-size: 30px;
-}
-
-.t1 {
+/* Classe per creare una scrollbar */
+.scrollbar {
         max-height: 390px;
         overflow-y: scroll;
     }
+
+/* ul */
+
+.metadati-item {
+    list-style: none;
+    padding-left: 0px;
+}

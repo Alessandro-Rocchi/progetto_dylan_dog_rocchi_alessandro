@@ -20,6 +20,10 @@
 
         <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
+        <!-- DublinCore-->
+
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+
         <!-- Sezione Title -->
 
         <title> Dylan Dog </title>
@@ -77,6 +81,9 @@
                     <li class="nav-item">
                       <a class="nav-link" href="#">Luoghi</a>
                     </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Accedi</a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -131,7 +138,7 @@
                         </button>
                       </h2>
                       <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body t1">
+                        <div class="accordion-body scrollbar">
                           <ul class="list-group">
                             <li class="list-group-item">
                               <label class="form-check-label stretched-link" for="firstCheckboxStretched">First checkbox</label>
@@ -156,7 +163,7 @@
                         </button>
                       </h2>
                       <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body t1">
+                        <div class="accordion-body scrollbar">
                           <ul class="list-group">
                             <li class="list-group-item">
                               <label class="form-check-label stretched-link" for="firstCheckboxStretched">First checkbox</label>
@@ -181,7 +188,7 @@
                         </button>
                       </h2>
                       <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body t1">
+                        <div class="accordion-body scrollbar">
                           <ul class="list-group">
                             <li class="list-group-item">
                               <label class="form-check-label stretched-link" for="firstCheckboxStretched">First checkbox</label>
@@ -206,7 +213,7 @@
                         </button>
                       </h2>
                       <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body t1">
+                        <div class="accordion-body scrollbar">
                           <ul class="list-group">
                             <li class="list-group-item">
                               <label class="form-check-label stretched-link" for="firstCheckboxStretched">First checkbox</label>
@@ -231,7 +238,7 @@
                         </button>
                       </h2>
                       <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body t1">
+                        <div class="accordion-body scrollbar">
                           <ul class="list-group">
                             <li class="list-group-item">
                               <label class="form-check-label stretched-link" for="firstCheckboxStretched">First checkbox</label>
@@ -256,7 +263,7 @@
                         </button>
                       </h2>
                       <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body t1">
+                        <div class="accordion-body scrollbar">
                           <ul class="list-group">
                             <li class="list-group-item">
                               <label class="form-check-label stretched-link" for="firstCheckboxStretched">First checkbox</label>
@@ -281,10 +288,15 @@
                   <div class="col-md-4">
                     <div class="card mx-auto d-block my-3 text-center" style="width: 18rem;">
                       <a href="#"><img src="images/DYD1.jpg" class="card-img-top" alt="..."></a>
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-dark">Go somewhere</a>
+                      <div class="card-body categorieDC">
+                        <h5 class="card-title DC.Title">Dylan Dog 1 - L'alba dei morti viventi</h5>
+                        <p class="card-text metadati">
+                          <div class="DC.Creator">
+                            Tiziano Sclavi - Angelo Stano -  Claudio Villa
+                          </div>
+                          <div class="DC.Date">01/10/1986</div>
+                        </p>
+                        <a href="item/item.html" class="btn btn-dark">Vai al fumetto</a>
                       </div>
                     </div>
                     <div class="card mx-auto d-block my-3 text-center" style="width: 18rem;">
@@ -405,9 +417,13 @@
                 <nav class="navbar">
                   <div class="container-fluid">
                     <h3 class="txt-light txt-center">Cerca nel sito</h3>
-                    <form class="d-flex rounded flex-column" role="search">
-                      <input class="form-control mb-2" type="search" placeholder="Cerca" aria-label="Search">
-                      <button class="btn btn-dark" type="submit">Cerca</button>
+                    <form class="d-flex rounded " role="search">
+                      <input class="form-control mr-2" type="search" placeholder="Cerca" aria-label="Search">
+                      <button class="btn" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                      </svg>
+                    </button>
                     </form>
                   </div>
                 </nav>
