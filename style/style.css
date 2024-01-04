@@ -28,12 +28,12 @@ a {
     text-decoration: none !important;
 }
 
-a:hover{
-    text-decoration: underline !important;
+.link-footer{
+    list-style: none;
 }
 
-nav a:hover{
-    text-decoration: underline;
+a:hover{
+    text-decoration: underline !important;
 }
 
 /* text align */
