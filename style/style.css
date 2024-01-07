@@ -54,3 +54,13 @@ a:hover{
 .padding-descrizione {
     padding-top: 20%;
 }
+
+.padding-leggero-top {
+    padding-top: 2%;
+}
+
+/* margin */
+
+.margin-leggero-left {
+    margin-left: 2%;
+}
