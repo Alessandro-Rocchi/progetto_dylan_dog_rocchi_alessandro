@@ -9,6 +9,17 @@ body {
     background-color: #e80000;
 }
 
+/* Img Resize */
+.resize-mappa-concettuale {
+    width: 50%;
+    height: 50%;
+}
+
+/* Font-Size */
+.grandezza-font {
+    font-size: 14px;
+}
+
 /* color */
 .txt-dark {
     color: #000000 !important;
