@@ -15,6 +15,11 @@ body {
     height: 50%;
 }
 
+.resize-img-offcanvas{
+    width: 75%;
+    height: 75%;
+}
+
 /* Font-Size */
 .grandezza-font {
     font-size: 14px;

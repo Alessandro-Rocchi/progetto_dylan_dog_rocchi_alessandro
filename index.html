@@ -24,7 +24,7 @@
 
         <script>
           const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+          const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
         </script>
 
         <!-- DublinCore -->
@@ -147,18 +147,12 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
                       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                      <div>
-                        Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-                      </div>
-                      <div class="dropdown mt-3">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                          Dropdown button
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                      <img src="images/tizianosclavi.jpg" class="img-fluid img-thumbnail rounded resize-img-offcanvas" alt="immagine sclavi">
+                      <p>
+                        <strong>Tiziano Sclavi</strong> nasce a Broni il 3 aprile 1953, diviene noto per la crezione del personaggio di Dylan Dog. Oltre al fumetto ha lavorato anche in altri ambiti come la narrativa per adulti e per l'infanzia, scenggiature cinematografiche oltre ad aver trascorso molto tempo come giornalista.
+                      </p>
+                      <div class="mt-3">
+                        <a class="btn btn-dark" href="#" role="button">Vai alla scheda</a>
                       </div>
                     </div>
                   </div>
@@ -218,29 +212,73 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
               </div>
               <div class="row">
                 <div class="col-md-4">
-                  <div class="card mx-auto d-block text-center" style="width: 18rem;">
+                  <div class="card mx-auto d-block text-center mt-2" style="width: 18rem;">
                     <a href="items/item-1.html"><img src="images/Copertine/DYD1.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body">
-                      <h5 class="card-title">Dylan Dog n°5 - Gli uccisori</h5>
+                      <h5 class="card-title">Dylan Dog n°1 - l'alba dei morti viventi</h5>
                       <p class="card-text">
-                        <div class="DC.Creator">
-                          Tiziano Sclavi - Luca Dell'Uomo - Claudio Villa
-                        </div>
+                        <span>Soggetto: </span>
+                            <creator xml:id="Soggettista">
+                            Tiziano Sclavi
+                            </creator>
+                            <span>
+                              -
+                            </span>
+                            <span>Scenggiatore: </span>
+                            <creator xml:id="Sceneggiatore">
+                            Tiziano Sclavi
+                            </creator>
+                            <span>
+                              -
+                            </span>
+                            <span>Disegni: </span>
+                            <creator xml:id="Disegnatore">
+                              Angelo Stano
+                            </creator>
+                            <span>
+                              -
+                            </span>
+                            <span>Copertina: </span>
+                            <creator xml:id="CoverArtist">
+                              Claudio Villa
+                            </creator>
                         <div class="DC.Date">01/05/1987</div>
                       </p>
-                      <a href="#" class="btn btn-dark">Vai al fumetto</a>
+                      <a href="items/item-1.html" class="btn btn-dark">Vai al fumetto</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4">
-                  <div class="card mx-auto d-block text-center" style="width: 18rem;">
+                  <div class="card mx-auto d-block text-center mt-2" style="width: 18rem;">
                     <img src="images/Copertine/DYD8.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Dylan Dog n°5 - Gli uccisori</h5>
+                        <h5 class="card-title">Dylan Dog n°8 - Il ritorno del mostro</h5>
                         <p class="card-text">
-                          <div class="DC.Creator">
-                            Tiziano Sclavi - Luca Dell'Uomo - Claudio Villa
-                          </div>
+                          <span>Soggetto: </span>
+                            <creator xml:id="Soggettista">
+                            Tiziano Sclavi
+                            </creator>
+                            <span>
+                              -
+                            </span>
+                            <span>Scenggiatore: </span>
+                            <creator xml:id="Sceneggiatore">
+                            Tiziano Sclavi
+                            </creator>
+                            <span>
+                              -
+                            </span>
+                            <span>Disegni: </span>
+                            <creator xml:id="Disegnatore">
+                              Luigi Picatto
+                            </creator>
+                            <span>
+                              -
+                            </span>
+                            <span>Copertina: </span>
+                            <creator xml:id="CoverArtist">
+                              Claudio Villa
+                            </creator>
                           <div class="DC.Date">01/05/1987</div>
                         </p>
                         <a href="#" class="btn btn-dark">Vai al fumetto</a>
@@ -248,14 +286,36 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
                   </div>
                 </div>
                 <div class="col-md-4">
-                  <div class="card mx-auto d-blocks text-center" style="width: 18rem;">
+                  <div class="card mx-auto d-blocks text-center mt-2" style="width: 18rem;">
                     <img src="images/Copertine/DYD12.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Dylan Dog n°5 - Gli uccisori</h5>
+                        <h5 class="card-title">Dylan Dog n°12 - Killer</h5>
                         <p class="card-text">
-                          <div class="DC.Creator">
-                            Tiziano Sclavi - Luca Dell'Uomo - Claudio Villa
-                          </div>
+                          <span>Soggetto: </span>
+                            <creator xml:id="Soggettista">
+                            Tiziano Sclavi
+                            </creator>
+                            <span>
+                              -
+                            </span>
+                            <span>Scenggiatore: </span>
+                            <creator xml:id="Sceneggiatore">
+                            Tiziano Sclavi
+                            </creator>
+                            <span>
+                              -
+                            </span>
+                            <span>Disegni: </span>
+                            <creator xml:id="Disegnatore">
+                              Montanari Giuseppe e Grassani Ernesto
+                            </creator>
+                            <span>
+                              -
+                            </span>
+                            <span>Copertina: </span>
+                            <creator xml:id="CoverArtist">
+                              Claudio Villa
+                            </creator>
                           <div class="DC.Date">01/05/1987</div>
                         </p>
                         <a href="#" class="btn btn-dark">Vai al fumetto</a>
