@@ -20,6 +20,13 @@
 
         <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
+        <!-- JS Custom -->
+
+        <script>
+          const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+        </script>
+
         <!-- DublinCore -->
 
         <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
@@ -108,7 +115,7 @@
                 <div class="col-md-4 my-3">
                       <h1>Il Progetto</h1>
                       <p>
-                          Questo sito web nasce con lo scopo di creare un catalogo dei primi 150 numeri di <a href="#"><strong>Dylan Dog</strong></a> e di permetterne la consultazione. In questo modo  si potrà mantenere uno storico e osservare l'evoluzione del fumetto.
+                          Questo sito web nasce con lo scopo di creare un catalogo dei primi 150 numeri di <a href="#" data-bs-toggle="tooltip" data-bs-title="Default tooltip"><strong>Dylan Dog</strong></a> e di permetterne la consultazione. In questo modo  si potrà mantenere uno storico e osservare l'evoluzione del fumetto.
                       </p>
                       <a class="btn btn-dark" href="catologo.html" role="button">Vai al catalogo</a>
                 </div>
