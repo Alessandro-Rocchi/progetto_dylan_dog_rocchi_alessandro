@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="It">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Font Roboto -->
+        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+       
+        <!-- CSS Custom -->
+
+        <link rel="stylesheet" href="style/style.css"/>
+
+        <!-- Bootstrap CSS -->
+
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+
+        <!-- Bootstrap JS -->
+
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- JS Custom -->
+
+        <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=65a6b5a2fbfe1600199c5c3a&product=sop' async='async'></script>
+        
+        <!-- DublinCore -->
+
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+
+        <META name="DC.Title" content="Dylan Dog's Catalogue"/>
+        <META name="DC.Creator" content="Alessandro Rocchi"/>
+        <META name="DC.Subject" content="Dylan Dog, Fumetti"/>
+        <META name="DC.Description" content="Un catalogo contente i primi 150 numeri del fumetto italiano Dylan Dog"/>
+        <META name="DC.Publisher" content="Github Pages"/>
+        <META name="DC.Date" content="2024/01/01"/>
+        <META name="DC.Type" content="Catalogo web"/>
+        <META name="DC.Format" content="Sito web"/>
+        <META name="DC.Identifier" content=""/>
+        <META name="DC.Source" content="Riferimento a una risorsa dalla quale è derivata la
+        risorsa in oggetto"/>
+        <META name="DC.Language" content="It"/>
+        <META name="DC.Rights" content="Informazione sui diritti esercitati sulla risorsa"/>
+
+        <!-- Sezione Title -->
+
+        <title> Dylan Dog's Catalogue </title>
+
+    </head>
+    <body>
+        <!-- Testata del sito-->
+        <header>
+           <!-- Sezione Immagine in Alto-->
+          <section class="container-fluid">
+            <div class="row">
+                <div class="col-12 px-0">
+                    <img src="images/homepage.jpg" class="img-fluid mx-auto d-block" alt="Immagine copertina">
+                </div>
+            </div>  
+          </section>
+        </header>
+        <main>
+               <!-- Navigazione Principale -->
+               <nav class="navbar bg-dark sticky-top navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">Logo</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="catologo.html">Catalogo</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Autori
+                        </a>
+                        <ul class="dropdown-menu ">
+                          <li><a class="dropdown-item" href="autori.html">Soggettista</a></li>
+                          <li><a class="dropdown-item" href="#">Sceneggiatore</a></li>
+                          <li><a class="dropdown-item" href="#">Disegnatore</a></li>
+                          <li><a class="dropdown-item" href="#">Cover Artist</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="personaggi.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Personaggi
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Comprimari</a></li>
+                            <li><a class="dropdown-item" href="#">Antagonisti</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="luoghi.html">Luoghi</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Accedi</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <section class="container-fluid">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h2 class="txt-center mt-3">
+                            Login
+                        </h2>
+                        <form class="mx-auto d-blocks my-3 text-center">
+                            <div class="mb-3">
+                              <label for="InputEmail1" class="form-label">Indirizzo mail</label>
+                              <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">Non condivideremo mai la tua mail con nessun'altro.</div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="InputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="InputPassword1">
+                            </div>
+                            <button type="submit" class="btn btn-dark">Accedi</button>
+                        </form>
+                        <div class="txt-center">
+                            <a href="#" title="Pagina recupero password">Hai dimenticato la password?</a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-1 my-3">
+                        <div class="vl"></div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <h2 class="txt-center mt-3">
+                            Registrazione
+                        </h2>
+                        <form class="mx-auto d-blocks my-3 text-center">
+                            <div class="mb-3">
+                              <label for="InputEmailReg" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="InputEmailReg" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">Non condivideremo mai la tua mail con nessun'altro</div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="InputPasswordReg" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="InputPasswordReg">
+                            </div>
+                            <div class="mb-3">
+                                <label for="InputConfPasswordReg" class="form-label">Conferma Password</label>
+                                <input type="password" class="form-control" id="InputConfPasswordReg">
+                              </div>
+                            <button type="submit" class="btn btn-dark">Registrati</button>
+                          </form>
+                    </div>
+                </div>
+              </section>
+        </main>
+
+        <!-- Footer -->
+
+        <footer>
+          <section class="container-fluid bg-dark-red txt-light">
+            <div class="row">
+              <div class="col-md-4">
+                <p class="grandezza-font">
+                Tutti i diritti sui contenuti di questo sito (nomi, immagini, testi ed altro) sono di proprietà dei rispettivi autori e/o case editrici, sotto la tutela delle leggi internazionali sul copyright/trademark.
+                </p>
+                <p class="grandezza-font">
+                Questo progetto è totalmente privo di scopi di lucro da parte dell'autore. 
+                Lo scopo è puramente amatoriale e perciò non è assolutamente affiliato o dipendente da alcun editore.
+                </p>
+              </div>
+              <div class="col-md-3">
+                <div class="sharethis-inline-follow-buttons">
+
+                </div>
+              </div>
+              <div class="col-md-2">
+                <ul class="link-footer">
+                  <li class="my-2">
+                    <a class="txt-light" href="#">Credits</a>
+                  </li>
+                  <li class="mb-2">
+                    <a class="txt-light" href="webprojectplan.html" target="_blank">Web Project Plan</a>
+                  </li>
+                  <li class="mb-2">
+                    <a class="txt-light" href="#">Informazioni</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <nav class="navbar">
+                  <div class="container-fluid ">
+                    <h3 class="txt-light txt-center">Cerca nel sito</h3>
+                    <form class="d-flex rounded" role="search">
+                      <input class="form-control mr-2" type="search" placeholder="Cerca" aria-label="Search">
+                      <button class="btn" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                      </svg>
+                    </button>
+                    </form>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </section>
+        </footer>
+    </body>
+</html>
