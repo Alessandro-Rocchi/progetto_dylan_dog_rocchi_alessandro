@@ -4,6 +4,13 @@ body {
     font-family: 'Roboto', sans-serif !important;
 }
 
+/* Logo resizie */
+
+.logo-resize {
+    height: 8%;
+    width: 8%;
+}
+
 /* background */
 .bg-dark-red {
     background-color: #e80000;
