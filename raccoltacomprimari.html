@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="It">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Font Roboto -->
+        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+       
+        <!-- CSS Custom -->
+
+        <link rel="stylesheet" href="style/style.css"/>
+
+        <!-- Bootstrap CSS -->
+
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+
+        <!-- Bootstrap JS -->
+
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- JS Social -->
+
+        <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=65a6b5a2fbfe1600199c5c3a&product=sop' async='async'></script>
+
+        <!-- Favicon -->
+
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+
+        <!-- DublinCore-->
+
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+
+        <!-- Sezione Title -->
+
+        <title> Dylan Dog's Catalouge</title>
+
+    </head>
+    <body>
+        <!-- Testata del sito-->
+        <header>
+            <!-- Sezione Immagine in Alto-->
+            <section class="container-fluid">
+              <div class="row">
+                  <div class="col-12 px-0">
+                      <img src="images/homepage.jpg" class="img-fluid mx-auto d-block" alt="Immagine copertina">
+                  </div>
+              </div>  
+            </section>
+        </header>
+        <main>
+            
+            <!-- Navigazione Principale -->
+            <nav class="navbar bg-dark sticky-top navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/Logo.png" class="logo-resize"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="catologo.html">Catalogo</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Autori
+                      </a>
+                      <ul class="dropdown-menu ">
+                        <li><a class="dropdown-item" href="#">Soggettista</a></li>
+                        <li><a class="dropdown-item" href="#">Sceneggiatore</a></li>
+                        <li><a class="dropdown-item" href="#">Disegnatore</a></li>
+                        <li><a class="dropdown-item" href="#">Cover Artist</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Personaggi
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Comprimari</a></li>
+                          <li><a class="dropdown-item" href="#">Antagonisti</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="luoghi.html">Luoghi</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="login.html">Accedi</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            <section class="container-fluid">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Comprimari</li>
+                    </ol>
+                </nav>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                            <h1>La funzione del comprimario</h1>
+                            <p>
+                                In Dylan Dog i comprimari hanno lo scopo di supportare e accompagnare il protagonista nelle varie avventure. Alcuni possono essere ricorrenti e tornare in più avventure altri compaiono solamente in un numero.
+                            </p>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+                    <div class="row">
+                        <div class="col-md-4 d-flex flex-fill">
+                          <div class="card mx-auto d-block my-3 text-center" style="width: 18rem;">
+                            <a href="items/item-1.html"><img src="images/Copertine/DYD1.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body d-flex flex-column flex-fill categorieDC">
+                              <h5 class="card-title DC.Title">Dylan Dog n°1 - L'alba dei morti viventi</h5>
+                              <p class="card-text">
+                                  <span>Soggetto: </span>
+                                  <creator xml:id="Soggettista">
+                                  Tiziano Sclavi
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Scenggiatore: </span>
+                                  <creator xml:id="Sceneggiatore">
+                                  Tiziano Sclavi
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Disegni: </span>
+                                  <creator xml:id="Disegnatore">
+                                    Angelo Stano
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Copertina: </span>
+                                  <creator xml:id="CoverArtist">
+                                    Claudio Villa
+                                  </creator>
+                                  <subject xml:id="Comprimario" class="hide">
+                                    Groucho
+                                  </subject>
+                                  <subject xml:id="Avversario" class="hide">
+                                    Xabaras
+                                  </subject>
+                                <div class="DC.Date mt-4">01/10/1986</div>
+                              </p>
+                              <a href="items/item-1.html" class="btn btn-dark">Vai al fumetto</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 d-flex flex-fill">
+                          <div class="card mx-auto d-block my-3 text-center" style="width: 18rem;">
+                            <img src="images/Copertine/DYD2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column flex-fill">
+                              <h5 class="card-title">Dylan Dog n°2 - Jack lo squartatore</h5>
+                              <p class="card-text">
+                                <span>Soggetto: </span>
+                                  <creator xml:id="Soggettista">
+                                  Tiziano Sclavi
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Scenggiatore: </span>
+                                  <creator xml:id="Sceneggiatore">
+                                  Tiziano Sclavi
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Disegni: </span>
+                                  <creator xml:id="Disegnatore">
+                                    Gustavo Trigo
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Copertina: </span>
+                                  <creator xml:id="CoverArtist">
+                                    Claudio Villa
+                                  </creator>
+                                  <subject xml:id="Comprimario" class="hide">
+                                    Groucho
+                                  </subject>
+                                  <subject xml:id="Comprimario" class="hide">
+                                    Ispettore Bloch
+                                  </subject>
+                                  <subject xml:id="Avversario" class="hide">
+                                    Jack
+                                  </subject>
+                                <div class="DC.Date mt-4">01/11/1986</div>
+                              </p>
+                              <a href="#" class="btn btn-dark">Vai al fumetto</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 d-flex flex-fill">
+                          <div class="card mx-auto d-blocks my-3 text-center" style="width: 18rem;">
+                            <img src="images/Copertine/DYD3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column flex-fill">
+                              <h5 class="card-title">Dylan Dog n°3 - Le notti della luna piena</h5>
+                              <p class="card-text">
+                                <span>Soggetto: </span>
+                                  <creator xml:id="Soggettista">
+                                  Tiziano Sclavi
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Scenggiatore: </span>
+                                  <creator xml:id="Sceneggiatore">
+                                  Tiziano Sclavi
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Disegni: </span>
+                                  <creator xml:id="Disegnatore">
+                                    Giuseppe Montanati
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Disegni: </span>
+                                  <creator xml:id="Disegnatore">
+                                    Ernesto Grassani
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Copertina: </span>
+                                  <creator xml:id="CoverArtist">
+                                    Claudio Villa
+                                  </creator>
+                                  <subject xml:id="Comprimario" class="hide">
+                                    Groucho
+                                  </subject>
+                                  <subject xml:id="Comprimario" class="hide">
+                                    Mary Ann Price
+                                  </subject>
+                                  <subject xml:id="Avversario" class="hide">
+                                    Helga Blucher
+                                  </subject>
+                                <div class="DC.Date">01/12/1986</div>
+                              </p>
+                              <a href="#" class="btn btn-dark">Vai al fumetto</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-4 d-flex flex-fill">
+                          <div class="card mx-auto d-block my-3 text-center" style="width: 18rem;">
+                            <a href="items/item-1.html"><img src="images/Copertine/DYD1.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body d-flex flex-column flex-fill categorieDC">
+                              <h5 class="card-title DC.Title">Dylan Dog n°1 - L'alba dei morti viventi</h5>
+                              <p class="card-text">
+                                  <span>Soggetto: </span>
+                                  <creator xml:id="Soggettista">
+                                  Tiziano Sclavi
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Scenggiatore: </span>
+                                  <creator xml:id="Sceneggiatore">
+                                  Tiziano Sclavi
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Disegni: </span>
+                                  <creator xml:id="Disegnatore">
+                                    Angelo Stano
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Copertina: </span>
+                                  <creator xml:id="CoverArtist">
+                                    Claudio Villa
+                                  </creator>
+                                  <subject xml:id="Comprimario" class="hide">
+                                    Groucho
+                                  </subject>
+                                  <subject xml:id="Avversario" class="hide">
+                                    Xabaras
+                                  </subject>
+                                <div class="DC.Date mt-4">01/10/1986</div>
+                              </p>
+                              <a href="items/item-1.html" class="btn btn-dark">Vai al fumetto</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 d-flex flex-fill">
+                          <div class="card mx-auto d-block my-3 text-center" style="width: 18rem;">
+                            <img src="images/Copertine/DYD2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column flex-fill">
+                              <h5 class="card-title">Dylan Dog n°2 - Jack lo squartatore</h5>
+                              <p class="card-text">
+                                <span>Soggetto: </span>
+                                  <creator xml:id="Soggettista">
+                                  Tiziano Sclavi
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Scenggiatore: </span>
+                                  <creator xml:id="Sceneggiatore">
+                                  Tiziano Sclavi
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Disegni: </span>
+                                  <creator xml:id="Disegnatore">
+                                    Gustavo Trigo
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Copertina: </span>
+                                  <creator xml:id="CoverArtist">
+                                    Claudio Villa
+                                  </creator>
+                                  <subject xml:id="Comprimario" class="hide">
+                                    Groucho
+                                  </subject>
+                                  <subject xml:id="Comprimario" class="hide">
+                                    Ispettore Bloch
+                                  </subject>
+                                  <subject xml:id="Avversario" class="hide">
+                                    Jack
+                                  </subject>
+                                <div class="DC.Date mt-4">01/11/1986</div>
+                              </p>
+                              <a href="#" class="btn btn-dark">Vai al fumetto</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 d-flex flex-fill">
+                          <div class="card mx-auto d-blocks my-3 text-center" style="width: 18rem;">
+                            <img src="images/Copertine/DYD3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column flex-fill">
+                              <h5 class="card-title">Dylan Dog n°3 - Le notti della luna piena</h5>
+                              <p class="card-text">
+                                <span>Soggetto: </span>
+                                  <creator xml:id="Soggettista">
+                                  Tiziano Sclavi
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Scenggiatore: </span>
+                                  <creator xml:id="Sceneggiatore">
+                                  Tiziano Sclavi
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Disegni: </span>
+                                  <creator xml:id="Disegnatore">
+                                    Giuseppe Montanati
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Disegni: </span>
+                                  <creator xml:id="Disegnatore">
+                                    Ernesto Grassani
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Copertina: </span>
+                                  <creator xml:id="CoverArtist">
+                                    Claudio Villa
+                                  </creator>
+                                  <subject xml:id="Comprimario" class="hide">
+                                    Groucho
+                                  </subject>
+                                  <subject xml:id="Comprimario" class="hide">
+                                    Mary Ann Price
+                                  </subject>
+                                  <subject xml:id="Avversario" class="hide">
+                                    Helga Blucher
+                                  </subject>
+                                <div class="DC.Date">01/12/1986</div>
+                              </p>
+                              <a href="#" class="btn btn-dark">Vai al fumetto</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-4 d-flex flex-fill">
+                          <div class="card mx-auto d-block my-3 text-center" style="width: 18rem;">
+                            <a href="items/item-1.html"><img src="images/Copertine/DYD1.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body d-flex flex-column flex-fill categorieDC">
+                              <h5 class="card-title DC.Title">Dylan Dog n°1 - L'alba dei morti viventi</h5>
+                              <p class="card-text">
+                                  <span>Soggetto: </span>
+                                  <creator xml:id="Soggettista">
+                                  Tiziano Sclavi
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Scenggiatore: </span>
+                                  <creator xml:id="Sceneggiatore">
+                                  Tiziano Sclavi
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Disegni: </span>
+                                  <creator xml:id="Disegnatore">
+                                    Angelo Stano
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Copertina: </span>
+                                  <creator xml:id="CoverArtist">
+                                    Claudio Villa
+                                  </creator>
+                                  <subject xml:id="Comprimario" class="hide">
+                                    Groucho
+                                  </subject>
+                                  <subject xml:id="Avversario" class="hide">
+                                    Xabaras
+                                  </subject>
+                                <div class="DC.Date mt-4">01/10/1986</div>
+                              </p>
+                              <a href="items/item-1.html" class="btn btn-dark">Vai al fumetto</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 d-flex flex-fill">
+                          <div class="card mx-auto d-block my-3 text-center" style="width: 18rem;">
+                            <img src="images/Copertine/DYD2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column flex-fill">
+                              <h5 class="card-title">Dylan Dog n°2 - Jack lo squartatore</h5>
+                              <p class="card-text">
+                                <span>Soggetto: </span>
+                                  <creator xml:id="Soggettista">
+                                  Tiziano Sclavi
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Scenggiatore: </span>
+                                  <creator xml:id="Sceneggiatore">
+                                  Tiziano Sclavi
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Disegni: </span>
+                                  <creator xml:id="Disegnatore">
+                                    Gustavo Trigo
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Copertina: </span>
+                                  <creator xml:id="CoverArtist">
+                                    Claudio Villa
+                                  </creator>
+                                  <subject xml:id="Comprimario" class="hide">
+                                    Groucho
+                                  </subject>
+                                  <subject xml:id="Comprimario" class="hide">
+                                    Ispettore Bloch
+                                  </subject>
+                                  <subject xml:id="Avversario" class="hide">
+                                    Jack
+                                  </subject>
+                                <div class="DC.Date mt-4">01/11/1986</div>
+                              </p>
+                              <a href="#" class="btn btn-dark">Vai al fumetto</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 d-flex flex-fill">
+                          <div class="card mx-auto d-blocks my-3 text-center" style="width: 18rem;">
+                            <img src="images/Copertine/DYD3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column flex-fill">
+                              <h5 class="card-title">Dylan Dog n°3 - Le notti della luna piena</h5>
+                              <p class="card-text">
+                                <span>Soggetto: </span>
+                                  <creator xml:id="Soggettista">
+                                  Tiziano Sclavi
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Scenggiatore: </span>
+                                  <creator xml:id="Sceneggiatore">
+                                  Tiziano Sclavi
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Disegni: </span>
+                                  <creator xml:id="Disegnatore">
+                                    Giuseppe Montanati
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Disegni: </span>
+                                  <creator xml:id="Disegnatore">
+                                    Ernesto Grassani
+                                  </creator>
+                                  <span>
+                                    -
+                                  </span>
+                                  <span>Copertina: </span>
+                                  <creator xml:id="CoverArtist">
+                                    Claudio Villa
+                                  </creator>
+                                  <subject xml:id="Comprimario" class="hide">
+                                    Groucho
+                                  </subject>
+                                  <subject xml:id="Comprimario" class="hide">
+                                    Mary Ann Price
+                                  </subject>
+                                  <subject xml:id="Avversario" class="hide">
+                                    Helga Blucher
+                                  </subject>
+                                <div class="DC.Date">01/12/1986</div>
+                              </p>
+                              <a href="#" class="btn btn-dark">Vai al fumetto</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-center">
+                          <li class="page-item disabled">
+                            <a class="page-link">Previous</a>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                          </li>
+                        </ul>
+                      </nav>
+            </section> 
+        </main>
+
+        <!-- Footer -->
+
+        <footer>
+          <section class="container-fluid bg-dark-red txt-light">
+            <div class="row">
+              <div class="col-md-4">
+                <p class="grandezza-font">
+                Tutti i diritti sui contenuti di questo sito (nomi, immagini, testi ed altro) sono di proprietà dei rispettivi autori e/o case editrici, sotto la tutela delle leggi internazionali sul copyright/trademark.
+                </p>
+                <p class="grandezza-font">
+                Questo progetto è totalmente privo di scopi di lucro da parte dell'autore. 
+                Lo scopo è puramente amatoriale e perciò non è assolutamente affiliato o dipendente da alcun editore.
+                </p>
+              </div>
+              <div class="col-md-3">
+                <div class="sharethis-inline-follow-buttons">
+
+                </div>
+              </div>
+              <div class="col-md-2">
+                <ul class="link-footer">
+                  <li class="my-2">
+                    <a class="txt-light" href="#">Credits</a>
+                  </li>
+                  <li class="mb-2">
+                    <a class="txt-light" href="webprojectplan.html" target="_blank">Web Project Plan</a>
+                  </li>
+                  <li class="mb-2">
+                    <a class="txt-light" href="#">Informazioni</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <nav class="navbar">
+                  <div class="container-fluid ">
+                    <h3 class="txt-light txt-center">Cerca nel sito</h3>
+                    <form class="d-flex rounded" role="search">
+                      <input class="form-control mr-2" type="search" placeholder="Cerca" aria-label="Search">
+                      <button class="btn" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                      </svg>
+                    </button>
+                    </form>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </section>
+        </footer>
+    </body>
+</html>
+
+
+  
+    
+    
+    
+
+
+
+
+    
+    
+    
