@@ -22,11 +22,11 @@
 
         <!-- Favicon -->
 
-        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-        <link rel="manifest" href="favicon/site.webmanifest">
-
+        <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+        <link rel="manifest" href="../favicon/site.webmanifest">
+        
         <!-- Bootstrap JS -->
 
         <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -81,15 +81,15 @@
                         Personaggi
                       </a>
                       <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Comprimari</a></li>
-                          <li><a class="dropdown-item" href="#">Antagonisti</a></li>
+                          <li><a class="dropdown-item" href="../raccoltacomprimari.html">Comprimari</a></li>
+                          <li><a class="dropdown-item" href="../raccoltaaaversari.html">Antagonisti</a></li>
                       </ul>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Luoghi</a>
+                      <a class="nav-link" href="../luoghi.html">Luoghi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Accedi</a>
+                        <a class="nav-link" href="../login.html">Accedi</a>
                       </li>
                   </ul>
                 </div>
@@ -99,6 +99,7 @@
             <section class="container-fluid my-3">
               <div class="row">
                 <div class="col-md-9">
+                <!-- BreadCrumbs -->
                   <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                       <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
@@ -106,6 +107,7 @@
                       <li class="breadcrumb-item active" aria-current="page">Dylan Dog 1 - l'alba dei morti viventi</li>
                     </ol>
                   </nav>
+                  <!-- Sezione Carosello fumetto -->
                   <div id="carouselExampleIndicators" class="carousel slide border border-5 w-75 mx-auto d-md-block">
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -132,36 +134,47 @@
                       <span class="visually-hidden">Next</span>
                     </button>
                   </div>
+                  <!-- Integrazione social condivisioni -->
                   <div class="sharethis-inline-share-buttons mt-3">
 
                   </div>
-                  <div class="metadati">
+                  <!-- Metadati -->
+                  <div>
                     <h2 class="mt-3">
                         Descrizione del numero
                     </h2>
-                    <ul class="pl-0 metadati-item">
-                        <li>
-                            <p class="mb-2"><strong>Sceneggiatore: <a href="#">Tiziano Sclavi</a></strong></p>
-                        </li>
-                        <li>
-                            <p class="mb-2"><strong>Disegnatore: <a href="#">Angelo Stano</a></strong></p>
-                        </li>
-                        <li>
-                            <p class="mb-2"><strong>Soggettista: <a href="#">Tiziano Sclavi</a></strong></p>
-                        </li>
-                        <li>
-                            <p class="mb-2"><strong>Copertina: <a href="#">Claudio Villa</a></strong></p>
-                        </li>
-                        <li>
-                            <p class="mb-2"><strong>Formato: 16x21 cm, b/n</strong></p>
-                        </li>
-                        <li>
-                            <p class="mb-2"><strong>Numero di pagine: 96</strong></p>
-                        </li>
-                        <li>
-                            <p class="mb-2"><strong>Uscita: 01/10/1986</strong></p>
-                        </li>
-                    </ul>
+                    <div class="metadati">
+                      <ul class="pl-0 metadati-item">
+                          <li>
+                              <p class="mb-2"><strong>Sceneggiatore: <a href="#"><creator xml:id="Sceneggiatore">Tiziano Sclavi</creator></a></strong></p>
+                          </li>
+                          <li>
+                              <p class="mb-2"><strong>Disegnatore: <a href="#"><creator xml:id="Disegnatore">Angelo Stano</creator></a></strong></p>
+                          </li>
+                          <li>
+                              <p class="mb-2"><strong>Soggettista: <a href="#"><creator xml:id="Soggettista">Tiziano Sclavi</creator></a></strong></p>
+                          </li>
+                          <li>
+                              <p class="mb-2"><strong>Copertina: <a href="#"><creator xml:id="Cover Artist">Claudio Villa</creator></a></strong></p>
+                          </li>
+                          <li>
+                            <p class="mb-2"><strong>Comprimario: <a href="#"><subject xml:id="Comprimario"> Groucho</subject></a></strong></p>
+                          </li>
+                          <li>
+                            <p class="mb-2"><strong>Avversario: <a href="#"><subject xml:id="Avversario"> Xabaras</subject></a></strong></p>
+                          </li>
+                          <li>
+                              <p class="mb-2"><strong>Formato: <span class="DC.Format">16x21 cm, b/n</span></strong></p>
+                          </li>
+                          <li>
+                              <p class="mb-2"><strong>Numero di pagine: 96</strong></p>
+                          </li>
+                          <li>
+                              <p class="mb-2"><strong>Uscita:<span class="DC.Date"> 01/10/1986 </span></strong></p>
+                          </li>
+                      </ul>
+                    </div>
+                    <!-- Aggiunta ai preferiti e modale -->
                     <div>
                         <strong>Aggiungi ai preferiti</strong>
                         <button class="btn" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -191,8 +204,10 @@
                       In questo primo numero Dylan Dog verrà ingaggiato da Sybil Browning per scoprire il motivo della trasformazione del marito in uno zombie. In un'avventura che parte da Londra e arriva alla spettrale Undead in Scozia. Qui si scontrerà con gli zombi controllati dal mefistofelico Xabaras che diventerà il suo avversario ricorrente.
                     </p>
                 </div>
+                <!-- Integrazione social reazioni -->
                 <div class="sharethis-inline-reaction-buttons"></div>
                </div>
+               <!-- Card Navigazione contestuale -->
                <div class="col-md-3 my-3 d-flex flex-column flex-fill">
                     <h3 class="txt-center">Ti potrebbe interessare anche:</h3>
                     <div class="card mx-auto d-block my-3 text-center" style="width: 14rem;">
@@ -225,6 +240,12 @@
                             <creator xml:id="CoverArtist">
                               Claudio Villa
                             </creator>
+                            <subject xml:id="Comprimario" class="hide">
+                              Morgan
+                            </subject>
+                            <subject xml:id="Avversario" class="hide">
+                              Xabaras
+                            </subject>
                             <div class="DC.Date">01/10/1988</div>
                           </p>
                           <a href="#" class="btn btn-dark">Vai al fumetto</a>
@@ -260,6 +281,12 @@
                             <creator xml:id="CoverArtist">
                               Angelo Stano
                             </creator>
+                            <subject xml:id="Comprimario" class="hide">
+                              Nessuno
+                            </subject>
+                            <subject xml:id="Avversario" class="hide">
+                              Xabaras
+                            </subject>
                             <div class="DC.Date">01/04/1990</div>
                           </p>
                           <a href="#" class="btn btn-dark">Vai al fumetto</a>
@@ -295,6 +322,12 @@
                             <creator xml:id="CoverArtist">
                               Angelo Stano
                             </creator>
+                            <subject xml:id="Comprimario" class="hide">
+                              Morgana
+                            </subject>
+                            <subject xml:id="Avversario" class="hide">
+                              Xabaras
+                            </subject>
                             <div class="DC.Date">01/01/1995</div>
                           </p>
                           <a href="#" class="btn btn-dark">Vai al fumetto</a>
@@ -321,10 +354,12 @@
                 </p>
               </div>
               <div class="col-md-3">
+              <!-- Integrazione social -->
                 <div class="sharethis-inline-follow-buttons">
 
                 </div>
               </div>
+              <!-- Metanavigazione -->
               <div class="col-md-2">
                 <ul class="link-footer">
                   <li class="my-2">
